@@ -22,7 +22,7 @@ Returns the reward information for the specified customer and, for each month.
 ```json
 {
   "name": "customer1",
-  "total": 110,
+  "total": 170,
   "rewards": {
     "1": 170
   }
@@ -40,16 +40,18 @@ Returns a list of reward information for all customers.
 [
   {
     "name": "customer1",
-    "total": 110,
+    "total": 170,
     "rewards": {
-      "1": 170
+      "1": 110,
+      "5": 60
     }
   },
   {
     "name": "customer2",
     "total": 30,
     "rewards": {
-      "1": 20
+      "1": 20,
+      "2": 10
     }
   }
 ]
